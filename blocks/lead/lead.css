@@ -1,0 +1,30 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  margin: 56px auto 92px;
+  max-width: 984px;
+}
+
+/* Точка перелома между 1024 и 1280 */
+@media screen and (max-width: 1152px) {
+  .lead {
+    max-width: 928px;
+    margin: 48px auto 92px;
+  }
+}
+
+/* Точка перелома между 768 и 1024 */
+@media screen and (max-width: 896px) {
+  .lead {
+    max-width: 768px;
+    margin: 48px auto 88px;
+  }
+}
+
+/* Точка перелома между 320 и 768 */
+@media screen and (max-width: 544px) {
+  .lead {
+    max-width: 320px;
+    margin: 48px auto 64px;
+  }
+}

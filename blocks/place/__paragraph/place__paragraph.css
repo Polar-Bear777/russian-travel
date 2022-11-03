@@ -1,0 +1,32 @@
+.place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFF;
+  margin: 0 0 26px;
+  text-rendering: optimizeLegibility;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+/* Точка перелома между 768 и 1024 */
+@media screen and (max-width: 896px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 0 25px;
+  }
+}
+
+/* Точка перелома между 320 и 768 */
+@media screen and (max-width: 544px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 0 25px;
+  }
+}

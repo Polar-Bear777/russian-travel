@@ -1,0 +1,19 @@
+.cover__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin:  0;
+  max-width: 360px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+/* Точка перелома между 320 и 768 */
+@media screen and (max-width: 544px) {
+  .cover__title {
+    margin: 0 0 16px;
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

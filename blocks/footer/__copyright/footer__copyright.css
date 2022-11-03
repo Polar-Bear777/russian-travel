@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFF;
+  font-family: 'Inter';
+  margin: 0 0;
+  text-rendering: optimizeLegibility;
+}
+
+/* Точка перелома между 320 и 768 */
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: inherit;
+    margin: 48px 0 0;
+  }
+}

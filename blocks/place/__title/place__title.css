@@ -1,0 +1,38 @@
+.place__title {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 76px;
+ width: 460px;
+ margin: 0 40px 0 0;
+ text-rendering: optimizeLegibility;
+}
+
+/* Точка перелома между 1024 и 1280 */
+@media screen and (max-width: 1152px) {
+    .place__title {
+        width: 440px;
+        margin: 0 32px 0 0;
+    }
+  }
+  
+  /* Точка перелома между 768 и 1024 */
+  @media screen and (max-width: 896px) {
+    .place__title {
+        width: 340px;
+        margin: 0 28px 0 0;
+        font-size: 42px;
+        line-height: 46px;
+    }
+  }
+  
+  /* Точка перелома между 320 и 768 */
+  @media screen and (max-width: 544px) {
+    .place__title {
+        width: 288px;
+        margin: 0 auto 0;
+        font-size: 32px;
+        line-height: 35px;
+    }
+  }

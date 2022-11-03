@@ -1,0 +1,32 @@
+.lead__image {
+  max-width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+}
+
+/* Точка перелома между 1024 и 1280 */
+@media screen and (max-width: 1152px) {
+  .lead__image {
+    max-width: 928px;
+    height: 580px;
+    margin: 56px auto 0;
+  }
+}
+
+/* Точка перелома между 768 и 1024 */
+@media screen and (max-width: 896px) {
+  .lead__image {
+    max-width: 100%;
+    height: 480px;
+    margin: 56px auto 0;
+  }
+}
+
+/* Точка перелома между 320 и 768 */
+@media screen and (max-width: 544px) {
+  .lead__image {
+    max-width: 100%;
+    height: 200px;
+    margin: 40px auto 0;
+  }
+}
