@@ -6,4 +6,6 @@
   line-height: 18px;
   margin-top: 33px;
   text-rendering: optimizeLegibility;
+  list-style: none;
+  padding: 0;
 }
