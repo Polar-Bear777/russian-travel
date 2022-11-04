@@ -3,7 +3,6 @@
 @import url('../vendor/fonts/font.css');
 
 /* Блоки */
-@import url('../pages/');
 @import url('../blocks/page/page.css');
 
 /* HEADER */
@@ -11,6 +10,7 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 /* LEAD */
 @import url('../blocks/lead/lead.css');
@@ -22,23 +22,13 @@
 /* INTRO */
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__number/intro__number.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__title/intro__title.css');
 
 /* PHOTO-GRID */
 @import url('../blocks/photo-grid/photo-grid.css');
-@import url('../blocks/photo-grid/__item-train/photo-grid__item-train.css');
-@import url('../blocks/photo-grid/__item-arisa/photo-grid__item-arisa.css');
-@import url('../blocks/photo-grid/__item-kamchatka-1/photo-grid__item-kamchatka-1.css');
-@import url('../blocks/photo-grid/__item-atharva-tulsi/photo-grid__item-atharva-tulsi.css');
-@import url('../blocks/photo-grid/__item-baikal/photo-grid__item-baikal-1.css');
-@import url('../blocks/photo-grid/__item-kamchatka-2/photo-grid__item-kamchatka-2.css');
-@import url('../blocks/photo-grid/__item-tuman/photo-grid__item-tuman.css');
-@import url('../blocks/photo-grid/__item-elbrus/photo-grid__item-elbrus.css');
-@import url('../blocks/photo-grid/__item-baikal-2/photo-grid__item-baikal-2.css');
-@import url('../blocks/photo-grid/__item-sochi/photo-grid__item-sochi.css');
-@import url('../blocks/photo-grid/__item-kondratiev/photo-grid__item-kondratiev.css');
-@import url('../blocks/photo-grid/__item-ergaki/photo-grid__item-ergaki.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
 /* PLACES */
 @import url('../blocks/places/places.css');
@@ -62,3 +52,4 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__links/footer__links.css');
+

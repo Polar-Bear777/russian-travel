@@ -10,6 +10,7 @@
     max-width: 928px;
     height: 580px;
     margin: 56px auto 0;
+    object-fit: contain;
   }
 }
 
@@ -25,7 +26,6 @@
 /* Точка перелома между 320 и 768 */
 @media screen and (max-width: 544px) {
   .lead__image {
-    max-width: 100%;
     height: 200px;
     margin: 40px auto 0;
   }

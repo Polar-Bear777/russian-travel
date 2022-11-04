@@ -2,6 +2,7 @@
   width: 460px;
   height: 460px;
   margin: 48px 40px 0 0;
+  object-fit: contain;
 }
 
 /* Точка перелома между 1024 и 1280 */
