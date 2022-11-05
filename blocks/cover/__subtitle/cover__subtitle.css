@@ -10,8 +10,7 @@
 
 /* Точка перелома между 320 и 768 */
 @media screen and (max-width: 544px) {
-  .cover__title {
-    margin-bottom: 16px;
+  .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;

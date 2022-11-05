@@ -11,3 +11,5 @@
 * _Весь код написан по методологии БЭМ_
 
 ![Add pic.](/images/header-logo.svg)
+
+Ссылка на gh-pages: https://polar-bear777.github.io/russian-travel/

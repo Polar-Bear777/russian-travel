@@ -2,12 +2,18 @@
   margin: 0;
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  column-gap: 18px;
 }
 
 /* Точка перелома между 320 и 768 */
 @media screen and (max-width: 544px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
+    row-gap: 32px;
+    align-items: flex-start;
   }
 }

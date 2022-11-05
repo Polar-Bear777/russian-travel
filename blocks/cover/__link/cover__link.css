@@ -25,6 +25,10 @@
   height: 100%;
   z-index: -1;
   transition: 0.5s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .cover__link:hover::before {
