@@ -24,7 +24,6 @@
 /* Точка перелома между 320 и 768 */
 @media screen and (max-width: 767px) {
   .footer {
-    width: 186px;
     margin-top: 64px;
     margin-left: 16px;
     margin-bottom: 24px;
