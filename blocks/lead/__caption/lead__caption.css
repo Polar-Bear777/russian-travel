@@ -13,13 +13,13 @@
 /* Точка перелома между 768 и 1024 */
 @media screen and (max-width: 896px) {
   .lead__caption {
-    margin: 8px 0 0 24px;
+    margin-bottom: 24px;
   }
 }
 
 /* Точка перелома между 320 и 768 */
 @media screen and (max-width: 544px) {
   .lead__caption {
-    margin: 8px 0 0 16px;
+    margin-bottom: 16px;
   }
 }

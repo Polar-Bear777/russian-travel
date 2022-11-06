@@ -4,7 +4,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  color: #FFF;
+  color: #fff;
   margin: 0 0 26px;
   text-rendering: optimizeLegibility;
 }
@@ -15,14 +15,6 @@
 
 /* Точка перелома между 768 и 1024 */
 @media screen and (max-width: 896px) {
-  .place__paragraph {
-    font-size: 16px;
-    margin-bottom: 25px;
-  }
-}
-
-/* Точка перелома между 320 и 768 */
-@media screen and (max-width: 544px) {
   .place__paragraph {
     font-size: 16px;
     margin-bottom: 25px;

@@ -1,5 +1,5 @@
 .place__website {
-  max-width: 456px;
+  width: 456px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -8,7 +8,7 @@
 /* Точка перелома между 768 и 1024 */
 @media screen and (max-width: 896px) {
   .place__website {
-    max-width: 352px;
+    width: 352px;
   }
 }
 
@@ -16,6 +16,6 @@
 @media screen and (max-width: 544px) {
   .place__website {
     width: 288px;
-    flex-direction: column;
+    margin: 32px auto 0;
   }
 }

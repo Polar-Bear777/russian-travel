@@ -1,5 +1,5 @@
 .place__paragraphs {
-  color: #FFF;
+  color: #fff;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -26,6 +26,8 @@
   @media screen and (max-width: 544px) {
     .place__paragraphs {
       max-width: 288px;
-      margin: 32px auto 0;
+      margin-top: 32px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }

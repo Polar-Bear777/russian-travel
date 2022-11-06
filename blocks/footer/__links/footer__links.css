@@ -10,7 +10,7 @@
 }
 
 /* Точка перелома между 320 и 768 */
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
     row-gap: 32px;

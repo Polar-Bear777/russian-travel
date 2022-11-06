@@ -1,12 +1,13 @@
 .intro {
-  margin: 0 442px 92px 148px;
+  margin: 0 442px 0 148px;
   max-width: 690px;
 }
 
 /* Точка перелома между 1024 и 1280 */
 @media screen and (max-width: 1152px) {
   .intro {
-    margin: 0 286px 92px 48px;
+    margin-right: 286px;
+    margin-left: 48px;
   }
 }
 
@@ -14,7 +15,8 @@
 @media screen and (max-width: 896px) {
   .intro {
     max-width: 720px;
-    margin: 0 auto 88px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -22,6 +24,5 @@
 @media screen and (max-width: 544px) {
   .intro {
     max-width: 288px;
-    margin: 0 auto 64px;
   }
 }
